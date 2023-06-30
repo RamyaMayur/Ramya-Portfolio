@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/3b49ae31e3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="brand">
+            <a href="#hero">
+              <h1><span>R</span>amya <span>S</span>ri</h1>
+            </a>
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front End Developer</p>
+          <h1>Hi, I'm <br /><span>RAMYASRI G</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of Header Section -->
+
+    <!-- About Section -->
+    <div id="about">
+      <h1 class="sub-title">About Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/pic.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <p>
+              I'm a Frontend Web Developer building the Front-end of Websites
+              and Web Applications that leads to the success of the overall
+              product. <br /><br />
+              I'm open to Job opportunities where I can contribute, learn and
+              grow. If you have a good opportunity that matches my skills and
+              experience the please do contact me. I'm a fast learner, able to
+              pick up new skills and juggle different projects and roles with
+              relative ease.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development <br /></span>Web App Development
+                </li>
+                <li>
+                  <span>App Development <br /></span>Building Android/iOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Feb 2023 - May 2023 <br /></span>Front-End Developer at
+                  Open Financial Technologies. <br />
+                  <ul>
+                    <li>
+                      Built multiple front end applications using Angular,
+                      Typescript and Tailwind CSS.
+                    </li>
+                    <li>
+                      Ensured unique projects compiled with correct technology
+                      processes and company standards
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span>Feb 2021 - Jan 2022 <br /></span>
+                  <span class="cannon">MERN Stack at Web Cannon-Z.</span>
+                </li>
+                  <ul>
+                    <li>Built multiple Full Stack Application with MERN.</li>
+                    <li>
+                      Collaborated with back-end developers and web designers to
+                      improve usability.
+                    </li>
+                  </ul>
+                <li>
+                  <span>Feb 2021 - Mar 2022 <br /></span>Analyst at First Source
+                  Limited.
+                </li>
+                <ul>
+                  <li>
+                    My primary role was in Quality Assurance, where I had to
+                    carry out due diligence review as per US Mortgage Norms.
+                  </li>
+                  <li>Reviewing the tax payments and verifying various types of
+                    legal documents.</li>
+                </ul>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 <br /></span>MERN Stack at Jspiders
+                </li>
+                <li>
+                  <span>2016 - 2020 <br /></span>Computer Science Engineering at
+                  Dr.T.Thimmaiah Institute of Technology
+                </li>
+                <li>
+                  <span>2016 <br /></span>PCMC at Sree Bhagawan Mahaveer Jain
+                  College
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of About Section -->
+
+    <!-- Services Section -->
+
+    <div id="services">
+      <h1 class="sub-title">My Services</h1>
+      <div class="container">
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Designing, building and maintaining websites and web applications,
+              involving a combination of programming, design and problem solving
+              skills to create functional and visually appealing online
+              experiences. By usign various programming language, frameworks and
+              technologies to bring websites and web applications to life.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>
+              Designing, building and deploying software applications for mobile
+              devices, such as smartphones and tablets. Typically invloves
+              developing apps for specific platforms like iOS and Android, it
+              also include cross-platform development that allows apps to run on
+              multiple platforms.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Discipline of creating visually appealing and user-friendly
+              interfaces that provide an optimal user experience for digital
+              products, such as websites, mobile apps, and software
+              applications. UI(User Interface) design focuses on the visual
+              aesthetics and layout of the interface, while UX(User Experience)
+              design focuses on enhancing the overall usability and satisfaction
+              of the user interacting with the product.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End of Services Section -->
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+      <div class="contianer">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/ecommerce.png" alt="" />
+            <div class="layer">
+              <h3>E-commerce</h3>
+              <p>
+                Includes shopping cart functionality, enabling customers to add
+                products to their cart while continuing to browse. When
+                customers are ready to complete their purchase, they proceed to
+                checkout process. This invloves shipping and billing information
+                and confirming the order.
+              </p>
+              <a href="https://ecommerce-tau-neon.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/musicapp.png" alt="" />
+            <div class="layer">
+              <h3>Online Food Delivery</h3>
+              <p>
+                Ordering food from restaurants or food establishments through
+                online platform having it delivered directly to the customer's
+                location. By browsing menus, select dishes and place orders from
+                variety of restaurants or food establishments
+              </p>
+              <a href=""
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+      </div>
+    </div>
+
+    <!--End of Portfolio Section -->
+
+    <!-- Contact Section -->
+
+    <div id="contact">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>ramyaachar1998@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 8867126361</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/mwlite/in/ramya-sri-g-0051151a1"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/RamyaMayur"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <a href="ramyasri-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter Your name"
+                required
+              />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter your email id"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="10"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+              <button class="btn btn2" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright © Ramyasri G. All rights reserved</p>
+      </div>
+    </div>
+
+    <!-- End of Contact Section -->
+    <script src="index.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+  </body>
+</html>
